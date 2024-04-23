@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&family=Sriracha&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sedan', serif;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body 
+{
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header
+{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1 
+{
+    font-family: var(--fonte2);
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header h1:hover 
+{
+    color:rgb(51, 51, 51);
+    transition: 0.3s;
+}
+
+header p {
+    font-size: 18px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover 
+{
+    color: #a8a6a6a6;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+section 
+{
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+section p 
+{
+    padding-bottom: 2em;
+}
+
+#img01 
+{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02
+{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.normal
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.imagem 
+{
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
+    box-shadow: inset 5px 5px 13px 5px black;
+}
+
+.imagem p 
+{
+    display: inline-block;
+    padding: 10px;
+    background-color: #0000003f;
+    text-shadow: 2px 4px 0px black;
+}
+
+footer 
+{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+}
